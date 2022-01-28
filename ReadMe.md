@@ -4,7 +4,7 @@
 after you have git clone the directory, there will be 2 main subdirectories:  
 "/frontend/" and "/backend/", which our frontend work and backend work is separated.
 
-## Frontend
+## Frontend (React.js)
 ### How to run
 1. first, cd to "/final/frontend"
 
@@ -13,7 +13,7 @@ after you have git clone the directory, there will be 2 main subdirectories:
 3. Type ```yarn start``` and enjoy, the server is run on ```http://140.112.175.129:3000/```  
 the hosting ip address can be change in ```/frontend/src/axios_instance.js```
 
-## Backend
+## Backend (Python)
 ### Setting up environment
 1. first, cd to "/final/backend"
 
