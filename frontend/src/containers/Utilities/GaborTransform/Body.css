@@ -1,0 +1,65 @@
+.temp1 {
+  position: relative;
+  left: 23%;
+  padding: 3px;
+}
+
+.temp2 {
+  position: relative;
+  left: 10%;
+  top: 15px;
+  padding: 10px;
+}
+
+.temp3 {
+  position: relative;
+  left: 10%;
+  padding: 10px;
+}
+
+.temp4 {
+  position: relative;
+  left: 37%;
+  top: 30px;
+  padding: 10px;
+}
+
+.selbar {
+  position: relative;
+  left: 115px;
+  width: 150px;
+  padding: 8px;
+}
+
+.slider_container1 {
+  display: flex;
+  position: absolute;
+  left: 56%;
+  top: 53%;
+  font-size: 18px;
+  /* background-color: green; */
+}
+
+.slider_container2 {
+  display: flex;
+  position: absolute;
+  left: 56%;
+  top: 63%;
+  font-size: 18px;
+}
+
+.slider1 {
+  position: relative;
+  left: 78px;
+  /* background-color: green; */
+}
+
+.slider2 {
+  position: relative;
+  left: 15px;
+}
+
+.slider {
+  background: green;
+  width: 150%;
+}

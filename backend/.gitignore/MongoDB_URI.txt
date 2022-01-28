@@ -1,0 +1,2 @@
+DB_URI = "mongodb+srv://gankenny26:Babibodoh237@webprogramming-hw7.m22fu.mongodb.net/wp_final?retryWrites=true&w=majority"
+# email: gankenny26@gmail.com, password: Babibodoh237
