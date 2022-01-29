@@ -4,13 +4,19 @@
 after you have git clone the directory, there will be 2 main subdirectories:  
 "/frontend/" and "/backend/", which our frontend work and backend work is separated.
 
+## Prerequisite for hosting website in your local machine (for Ubuntu)
+1. Check your current IPaddress using ```ifconfig```
+
+2. Allowed the local machine on external access for PORT 3000 and 5000:  
+```sudo ufw allow 3000,5000```  
+
 ## Frontend (React.js)
 ### How to run
 1. first, cd to "/final/frontend"
 
 2. Type ```yarn``` in your cmd to install all the packages included in ```package.json```
 
-3. Type ```yarn start``` and enjoy, the server is run on ```http://140.112.175.129:3000/```  
+3. Type ```yarn start``` and enjoy, the server is run on ```http://yourIPaddress:3000/```  
 the hosting ip address can be change in ```/frontend/src/axios_instance.js```
 
 ## Backend (Python)
