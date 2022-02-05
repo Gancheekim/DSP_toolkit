@@ -12,7 +12,7 @@ after you have cloned the directory, there will be 2 main subdirectories:
 
 3. make sure to install ***screen*** ```sudo apt install screen```  
 to check any attached/detached socket, use ```screen -ls```  
-to reattach a previous socket, use ```screen -r sessionID```
+to reattach a previous socket, use ```screen -r sessionID```  
 to kill a session, use ```screen -X -S sessionID_you_want_to_kill quit```
 
 ## Frontend (React.js)
