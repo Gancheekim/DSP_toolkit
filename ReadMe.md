@@ -1,5 +1,5 @@
 ## Digital Signal Processing Toolkit 
-hosted by DISP Lab **(Digital Image and Signal Processing Laboratory)**
+hosted by DISP Lab ***(Digital Image and Signal Processing Laboratory)***
 
 after you have cloned the directory, there will be 2 main subdirectories:  
 "/frontend/" and "/backend/", which our frontend work and backend work is separated.
