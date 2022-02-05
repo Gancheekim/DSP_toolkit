@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/DSP_toolkit/frontend/static/css/main.950890d6.css",
+    "main.js": "/DSP_toolkit/frontend/static/js/main.7052b708.js",
+    "static/js/787.c4f40e06.chunk.js": "/DSP_toolkit/frontend/static/js/787.c4f40e06.chunk.js",
+    "static/media/handel.wav": "/DSP_toolkit/frontend/static/media/handel.46588c526a32006dd6ef.wav",
+    "static/media/Chord.wav": "/DSP_toolkit/frontend/static/media/Chord.45ee4d7c015ad86cc09f.wav",
+    "static/media/sample.wav": "/DSP_toolkit/frontend/static/media/sample.04c261abfb47d9355abc.wav",
+    "static/media/body_init.jpg": "/DSP_toolkit/frontend/static/media/body_init.1fcb8e8016d25fc8bde3.jpg",
+    "index.html": "/DSP_toolkit/frontend/index.html",
+    "main.950890d6.css.map": "/DSP_toolkit/frontend/static/css/main.950890d6.css.map",
+    "main.7052b708.js.map": "/DSP_toolkit/frontend/static/js/main.7052b708.js.map",
+    "787.c4f40e06.chunk.js.map": "/DSP_toolkit/frontend/static/js/787.c4f40e06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.950890d6.css",
+    "static/js/main.7052b708.js"
+  ]
+}
