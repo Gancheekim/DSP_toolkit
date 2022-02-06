@@ -26,6 +26,38 @@ to kill a session, use ```screen -X -S sessionID_you_want_to_kill quit```
 3. Type ```yarn start``` and enjoy, the server is run on ```http://yourIPaddress:3000/```  
 the hosting ip address can be change in ```/frontend/src/axios_instance.js```
 
+#### or alternatively hosting with Apache2 web server, by default it will use PORT 80. (this is a much stable method.)
+3. After finish editing website, check locally that everything works fine. Then, ```yarn run build```, this will prepare the production-ready static HTML into a bundle.
+
+4. copy everything inside the ```/build/``` directory to ```/var/www/html/```:  
+```sudo cp -a ./build/. /var/www/html/```
+
+5. ```cd /var/www/html/```, make sure there is a fill call ```.htaccess```, which the content will look like:  
+  ```
+  Options -MultiViews 
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.html [QSA,L]
+  ```
+
+6. make sure that ```/etc/apache2/apache2.conf``` has the current snippet:  
+  ```
+  <Directory /var/www/html>
+
+       Options Indexes FollowSymLinks
+
+       AllowOverride All
+
+       Require all granted
+
+  </Directory>
+  ```
+
+7. restart the apache2 server:  ```sudo service apache2 restart```
+
+8. If there's any bug, please consult stackoverflow XDD
+
+
 ## Backend (Python)
 ### Setting up environment
 1. first, cd to "/final/backend"
