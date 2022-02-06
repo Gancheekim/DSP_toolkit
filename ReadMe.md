@@ -32,7 +32,7 @@ the hosting ip address can be change in ```/frontend/src/axios_instance.js```
 4. copy everything inside the ```/build/``` directory to ```/var/www/html/```:  
 ```sudo cp -a ./build/. /var/www/html/```
 
-5. ```cd /var/www/html/```, make sure there is a fill call ```.htaccess```, which the content will look like:  
+5. ```cd /var/www/html/```, make sure there is a file call ```.htaccess```, which the content will look like:  
   ```
   Options -MultiViews 
   RewriteEngine On
@@ -43,13 +43,9 @@ the hosting ip address can be change in ```/frontend/src/axios_instance.js```
 6. make sure that ```/etc/apache2/apache2.conf``` has the current snippet:  
   ```
   <Directory /var/www/html>
-
        Options Indexes FollowSymLinks
-
        AllowOverride All
-
        Require all granted
-
   </Directory>
   ```
 
