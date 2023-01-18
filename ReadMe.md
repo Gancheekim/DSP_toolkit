@@ -51,7 +51,12 @@ the hosting ip address can be change in ```/frontend/src/axios_instance.js```
 
 7. restart the apache2 server:  ```sudo service apache2 restart```
 
-8. If there's any bug, please consult stackoverflow XDD
+8. check if apache2 web server is working:
+  ```
+  sudo systemctl status apache2
+  ```
+
+9. check the website by IP address, port are not required to be specified.
 
 
 ## Backend (Python)
