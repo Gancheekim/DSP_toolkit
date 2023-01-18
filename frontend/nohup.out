@@ -1,0 +1,27 @@
+yarn run v1.22.17
+$ react-scripts start
+(node:1210820) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1210820) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view frontend in the browser.
+
+  http://localhost:3000
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+assets by path static/ 3.82 MiB
+  assets by path static/media/*.wav 1.15 MiB
+    asset static/media/handel.46588c526a32006dd6ef.wav 769 KiB [emitted] [immutable] [from: src/containers/example_audio/handel.wav] (auxiliary name: main)
+    asset static/media/Chord.45ee4d7c015ad86cc09f.wav 277 KiB [emitted] [immutable] [from: src/containers/example_audio/Chord.wav] (auxiliary name: main)
+    asset static/media/sample.04c261abfb47d9355abc.wav 129 KiB [emitted] [immutable] [from: src/containers/example_audio/sample.wav] (auxiliary name: main)
+  asset static/js/bundle.js 2.59 MiB [emitted] (name: main) 1 related asset
+  asset static/media/body_init.1fcb8e8016d25fc8bde3.jpg 86.6 KiB [emitted] [immutable] [from: src/containers/example_image/body_init.jpg] (auxiliary name: main)
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 514 bytes [emitted]
+cached modules 3.36 MiB (javascript) 1.23 MiB (asset) 28.1 KiB (runtime) [cached] 955 modules
+webpack 5.67.0 compiled successfully in 1197 ms

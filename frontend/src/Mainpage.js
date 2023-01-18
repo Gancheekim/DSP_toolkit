@@ -46,7 +46,9 @@ function Mainpage(){
     );
     
     return (
-        <>{Enter}</>
+        <div>
+            {Enter}
+        </div>
     )
 }
 export default Mainpage;
